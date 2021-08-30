@@ -1,0 +1,228 @@
+.nav{
+    z-index: 20;
+    height: 85;
+}
+header .container-fluid{
+    margin-left: 0;
+}
+.nav a{
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#banner
+{
+    margin-top: 90;
+}
+#banner img{
+    
+    width: 100%;
+    height: 400;
+    border-bottom: 2px solid green;
+}
+
+.container-fluid
+{
+    padding: 0;
+    overflow-x: hidden;
+}
+#ban
+{
+   font-family: cursive;
+   font-weight:900;
+   text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+#banner h5{
+    font-family: monospace;
+    text-align: center;
+}
+.builderclass
+{
+    height: 400;
+}
+.age h1{
+   
+    font-weight: bolder;
+    background-color: rgb(93, 168, 168);
+    text-align: center;
+    text-transform: uppercase;
+	background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+            
+
+}
+.decker
+{
+    margin-left: 300;
+}
+.crd{
+    width: 300;
+}
+.crd p
+{
+    font-weight: bolder;
+    font-size: 40;
+}
+.age a{
+    text-decoration: none;
+    color: black;
+}
+.age a:hover
+{
+    opacity: 0.7;
+}
+#spideybanner img
+{
+    margin-top: 20;
+    width: 645;
+    height: 200;
+}
+#spideybanner .jumbotron
+{
+    margin-top: 20;
+    background-color: blueviolet;
+    height: 200;
+    text-align: center;
+    padding-top: 30;
+    font-weight: bolder;
+    background-color: rgb(93, 168, 168);
+    text-align: center;
+    text-transform: uppercase;
+	background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
+.flexer
+{
+    padding: 0;
+}
+.crddeck
+{
+    padding:0 20;
+}
+#cateogories .card
+{
+    height: 500;
+}
+.crddeck img
+{
+    width: 100%;
+    height: 300;
+}
+#cateogories
+{
+    background-color:whitesmoke;
+}
+#cateogories .card:hover
+{
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+#cateogories h2{
+    text-align: center;
+    padding: 10 0;
+    background-color: chartreuse;
+    color: crimson;
+    font-weight: bolder;
+}
+#cateogories2
+{
+    background-color: lightgray;
+}
+#cateogories2 h2
+{
+    text-align: center;
+    padding: 10 0;
+    background-color: purple;
+    color: yellowgreen;
+    font-weight: bolder;
+}
+#cateogories2 .card:hover
+{
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+#cateogories3 h2
+{
+    text-align: center;
+    padding: 10 0;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bolder;
+}
+#cateogories3 .card:hover
+{
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+footer {
+    background: #061D25;
+    padding: 10px 0;
+  }
+  footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  footer a:hover {
+    color: white;
+  }
+  footer h3{
+      text-align: center;
+      color:gray;
+      font-family: cursive;
+  }
+  
+  .footertext ol li,.footertext h4
+  {
+      color:gray;
+      list-style:disc;
+  }
+  .footertext p{
+      margin: 0;
+      color: gray;
+  }
+  .registerd
+  {
+      text-align: center;
+      color: gray;
+      margin: 0;
+  }
+  #cateogories3 .img-thumbnail {
+    background-color:blue;
+ }
+ #cateogories2 .img-thumbnail
+ {
+    background-color:yellowgreen;
+ }
+ .card h4{
+     font-family: monospace;
+     font-weight: bolder;
+     color: tomato;
+ }
+ .card p{
+    font-family: cursive;
+    color: blue;
+}
+.container-fluid,body
+{
+    overflow-x: hidden;
+}

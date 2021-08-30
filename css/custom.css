@@ -1,0 +1,121 @@
+*{margin: 0%; padding: 0%;}
+body{font-size: 20px;
+}
+
+/* Container holding the image and the text */
+.container {
+margin-top: 20px;
+    width: 100%;
+    padding: none;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  body
+  {
+    overflow-x: hidden;
+  }
+  ul li a:hover{
+    color: blue;
+  }
+  
+  /* Centered text */
+  .centered {
+    font-size: 150px;
+    font-style: italic;
+    text-decoration-color: tan;
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+
+ .mycarousal{
+    width: 100%;
+    height: 400px;
+    background-repeat:no-repeat ;
+}
+.carousel-caption{
+font-style: italic;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font: bold;
+    margin-bottom: 100px;
+}
+/*   Header    */
+
+.nav{
+  z-index: 20;
+  height: 75;
+}
+header .container-fluid{
+  margin-left: 0;
+}
+.nav a{
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*   footer   */
+  footer {
+    background: #061D25;
+    padding: 10px 0;
+  }
+  footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  footer a:hover {
+    color: white;
+  }
+  footer h3{
+      text-align: center;
+      color:gray;
+      font-family: cursive;
+  }
+  
+  .footertext ol li,.footertext h4
+  {
+      color:gray;
+      list-style:disc;
+  }
+  .footertext p{
+      margin: 0;
+      color: gray;
+  }
+  .registerd
+  {
+      text-align: center;
+      color: gray;
+      margin: 0;
+  }
+
+
+

@@ -1,0 +1,3208 @@
+.nav{
+    z-index: 20;
+    height: 75;
+
+}
+.nav .container-fluid{
+    overflow-y:hidden;
+}
+header .container-fluid{
+    overflow-y:hidden;
+}
+.container-fluid{
+    padding: 0;
+}
+header .container-fluid{
+    margin-left: 0;
+}
+.nav a{
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.img1
+{
+    width:75%;
+    margin-top:4%;
+}
+h3{
+    color:yellow;
+    font-family: cursive;
+    margin-top: -35%;
+    margin-left:37%;
+}
+.icon1
+{
+    margin-left:61%;
+    width:40px;
+    margin-top:-3%;
+}
+h4{
+    margin-left:76%;
+    margin-top: -10%;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sidebar
+{
+    background-color:burlywood;
+    height: 600px;
+    margin-top: -10%;
+}
+#content1
+{
+    background-color:black;
+}
+.clt1
+{
+    margin-left:75%;
+    margin-top:1%;
+}
+.clt2
+{
+    margin-left:88%;
+    margin-top:-8%;
+}
+
+#img1
+{
+    
+    margin-top:4%;
+}
+#img2
+{
+    
+    margin-top:4%;
+}
+#img3
+{
+    
+    margin-top:4%;
+}
+.p1
+{
+    margin-left:78%;
+}
+h5{
+    font-weight: bolder;
+    margin-left: 25%;
+    margin-top: 2%;
+    font-size:xx-large;
+    height:60px;
+}
+#womens
+{
+    background-color: rgb(193, 193, 212);
+    height:480px;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product1 {
+    position: absolute;
+    top: 420%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product1 .imgbox1 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product1 .imgbox1 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies1 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product1:hover .specifies1 {
+    bottom: 0
+}
+
+.specifies1 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies1 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies1 .price1 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product2 {
+    position: absolute;
+    top: 420%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product2 .imgbox2 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product2 .imgbox2 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies2 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product2:hover .specifies2 {
+    bottom: 0
+}
+
+.specifies2 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies2 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies2 .price2 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product3 {
+    position: absolute;
+    top: 420%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product3 .imgbox3 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product3 .imgbox3 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies3 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product3:hover .specifies3 {
+    bottom: 0
+}
+
+.specifies3 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies3 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies3 .price3 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product4 {
+    position: absolute;
+    top: 420%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product4 .imgbox4 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product4 .imgbox4 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies4 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product4:hover .specifies4 {
+    bottom: 0
+}
+
+.specifies4 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies4 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies4 .price4 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+
+
+/* mens*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product5 {
+    position: absolute;
+    top: 500%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product5 .imgbox5 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product5 .imgbox5 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies5 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product5:hover .specifies5 {
+    bottom: 0
+}
+
+.specifies5 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies5 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies5 .price5 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+/*2nd image men*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product6 {
+    position: absolute;
+    top: 500%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product6 .imgbox6 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product6 .imgbox6 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies6 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product6:hover .specifies6 {
+    bottom: 0
+}
+
+.specifies6 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies6 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies6 .price6 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+/* 3rd img*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product7 {
+    position: absolute;
+    top: 500%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product7 .imgbox7 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product7 .imgbox7 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies7 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product7:hover .specifies7 {
+    bottom: 0
+}
+
+.specifies7 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies7 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies7 .price7 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product8 {
+    position: absolute;
+    top: 500%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product8 .imgbox8 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product8 .imgbox8 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies8 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product8:hover .specifies8 {
+    bottom: 0
+}
+
+.specifies8 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies8 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies8 .price8 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+
+/* kids*/
+#kids
+{
+    margin-top: 37%;
+	height:500px;
+	background-color:grey;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product9 {
+    position: absolute;
+    top: 590%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product9 .imgbox9 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product9 .imgbox9 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies9 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product9:hover .specifies9 {
+    bottom: 0
+}
+
+.specifies9 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies9 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies9 .price9 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+/*2nd image men*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product10 {
+    position: absolute;
+    top: 590%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product10 .imgbox10 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product10 .imgbox10 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies10 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product10:hover .specifies10 {
+    bottom: 0
+}
+
+.specifies10 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies10 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies10 .price10 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+/* 3rd img*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product11 {
+    position: absolute;
+    top: 590%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product11 .imgbox11 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product11 .imgbox11 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies11 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product11:hover .specifies11 {
+    bottom: 0
+}
+
+.specifies11 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies11 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies11 .price11 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product12 {
+    position: absolute;
+    top: 590%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product12 .imgbox12 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product12 .imgbox12 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies12 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product12:hover .specifies12 {
+    bottom: 0
+}
+
+.specifies12 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies12 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies12 .price12 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+.nav{
+    z-index: 20;
+    height: 75;
+
+}
+header .container-fluid{
+    margin-left: 0;
+}
+.nav a{
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.img1
+{
+    width:75%;
+    margin-top:4%;
+}
+h3{
+    color:yellow;
+    font-family: cursive;
+    margin-top: -35%;
+    margin-left:37%;
+}
+.icon1
+{
+    margin-left:61%;
+    width:40px;
+    margin-top:-3%;
+}
+h6{
+    margin-left:76%;
+    margin-top: -10%;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sidebar
+{
+    background-color:burlywood;
+    height: 600px;
+    margin-top: -10%;
+}
+#content1
+{
+    background-color:black;
+}
+.clt1
+{
+    margin-left:75%;
+    margin-top:1%;
+}
+.clt2
+{
+    margin-left:88%;
+    margin-top:-8%;
+}
+
+#img1
+{
+    
+    margin-top:4%;
+}
+#img2
+{
+    
+    margin-top:4%;
+}
+#img3
+{
+    
+    margin-top:4%;
+}
+.p1
+{
+    margin-left:78%;
+}
+h5{
+    font-weight: bolder;
+    margin-left: 25%;
+    margin-top: 2%;
+    font-size:xx-large;
+    height:60px;
+}
+#womens
+{
+    background-color: rgb(193, 193, 212);
+    height:480px;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product1 {
+    position: absolute;
+    top: 420%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product1 .imgbox1 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product1 .imgbox1 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies1 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product1:hover .specifies1 {
+    bottom: 0
+}
+
+.specifies1 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies1 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies1 .price1 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product2 {
+    position: absolute;
+    top: 420%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product2 .imgbox2 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product2 .imgbox2 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies2 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product2:hover .specifies2 {
+    bottom: 0
+}
+
+.specifies2 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies2 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies2 .price2 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product3 {
+    position: absolute;
+    top: 420%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product3 .imgbox3 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product3 .imgbox3 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies3 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product3:hover .specifies3 {
+    bottom: 0
+}
+
+.specifies3 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies3 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies3 .price3 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product4 {
+    position: absolute;
+    top: 420%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product4 .imgbox4 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product4 .imgbox4 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies4 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product4:hover .specifies4 {
+    bottom: 0
+}
+
+.specifies4 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies4 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies4 .price4 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+
+
+/* mens*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product5 {
+    position: absolute;
+    top: 500%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product5 .imgbox5 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product5 .imgbox5 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies5 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product5:hover .specifies5 {
+    bottom: 0
+}
+
+.specifies5 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies5 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies5 .price5 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+/*2nd image men*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product6 {
+    position: absolute;
+    top: 500%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product6 .imgbox6 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product6 .imgbox6 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies6 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product6:hover .specifies6 {
+    bottom: 0
+}
+
+.specifies6 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies6 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies6 .price6 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+/* 3rd img*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product7 {
+    position: absolute;
+    top: 500%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product7 .imgbox7 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product7 .imgbox7 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies7 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product7:hover .specifies7 {
+    bottom: 0
+}
+
+.specifies7 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies7 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies7 .price7 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product8 {
+    position: absolute;
+    top: 500%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product8 .imgbox8 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product8 .imgbox8 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies8 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product8:hover .specifies8 {
+    bottom: 0
+}
+
+.specifies8 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies8 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies8 .price8 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+#footer
+{
+	width:100%;
+	margin-top:40%;
+}
+.footer{
+	margin-top:50%;
+}
+footer {
+    background: #061D25;
+    padding: 10px 0;
+	
+  }
+  .container-fluid,body{
+overflow-x:hidden;
+}
+  footer a {
+    color: #70726F;
+    font-size: 20px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  footer a:hover {
+    color: white;
+  }
+  footer h3{
+      text-align: center;
+      color:gray;
+      font-family: cursive;
+  }
+  
+  .footertext ol li,.footertext h4
+  {
+      color:gray;
+      list-style:disc;
+  }
+  .footertext p{
+      margin: 0;
+      color: gray;
+  }
+  .registerd
+  {
+      text-align: center;
+      color: gray;
+      margin: 0;
+  }
+
+.col-md-3
+{
+	margin-left:-3%;
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+
+/* kids*/
+#kids
+{
+    margin-top: 37%;
+	height:500px;
+	background-color:grey;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product9 {
+    position: absolute;
+    top: 590%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product9 .imgbox9 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product9 .imgbox9 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies9 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product9:hover .specifies9 {
+    bottom: 0
+}
+
+.specifies9 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies9 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies9 .price9 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+/*2nd image men*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product10 {
+    position: absolute;
+    top: 590%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product10 .imgbox10 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product10 .imgbox10 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies10 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product10:hover .specifies10 {
+    bottom: 0
+}
+
+.specifies10 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies10 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies10 .price10 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+/* 3rd img*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product11 {
+    position: absolute;
+    top: 590%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product11 .imgbox11 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product11 .imgbox11 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies11 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product11:hover .specifies11 {
+    bottom: 0
+}
+
+.specifies11 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies11 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies11 .price11 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+.product12 {
+    position: absolute;
+    top: 590%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #0e0e0f;
+    overflow: hidden
+}
+
+.product12 .imgbox12 {
+    height: 100%;
+    box-sizing: border-box
+}
+
+.product12 .imgbox12 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto 0
+}
+
+.specifies12 {
+    position: absolute;
+    width: 100%;
+    bottom: -160px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .5s
+}
+
+.product12:hover .specifies12 {
+    bottom: 0
+}
+
+.specifies12 h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.specifies12 h2 span {
+    font-size: 15px;
+    color: #ccc;
+    font-weight: normal
+}
+
+.specifies12 .price12 {
+    position: absolute;
+    top: 12px;
+    right: 25px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+ul li {
+    list-style: none;
+    margin: 5px 5px 0;
+    font-size: 15px;
+    font-style: normal;
+    color: #ccc
+}
+
+ul li:first-child {
+    margin-left: 0
+}
+
+ul.colors li {
+    width: 15px;
+    height: 15px
+}
+
+ul.colors li:nth-child(1) {
+    background: #4A148C
+}
+
+ul.colors li:nth-child(2) {
+    background: #F50057
+}
+
+ul.colors li:nth-child(3) {
+    background: #536DFE
+}
+
+ul.colors li:nth-child(4) {
+    background: #388E3C
+}
+
+ul.colors li:nth-child(5) {
+    background: #FF6D00
+}
+
+.btn {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin: 10px 0 0;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px
+}
+
+
+	
+
