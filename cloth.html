@@ -1,0 +1,405 @@
+<html>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="/css/cloth.css" rel="stylesheet" type="text/css">
+ 
+  <link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/jquery.min.js"></script>
+</head>
+<header class="container-fluid">
+    <nav class="nav navbar navbar-expand-lg fixed-top navbar-light bg-light container-fluid row">
+      <div class="navbar navbar-light bg-light col-md-1">
+          <a class="navbar-brand" href="#">
+            <img src="/images/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+           
+          </a>
+      </div>
+     <div class="col-md-5">
+      <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " href="#">Electronics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Furnitures</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Clothing</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Toys</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Beauty</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sports</a>
+            </li>
+        </ul>
+     </div>
+     <div class="input-group col-md-4">
+      <input class="form-control py-2 border-right-0 border" type="search" placeholder="search" id="example-search-input">
+      <span class="input-group-append">
+        <button class="btn btn-outline-secondary border-left-0 border" type="button">
+          <i class="fa fa-search"></i>
+        </button>
+      </span>
+  </div>
+   <div class="row col-md-2">
+       <div class="col-md-4">
+          <a href="#">About</a>
+       </div>
+       <div class="col-md-4">
+          <a href="#"><i class='far fa-address-card' style='font-size:24px'></i></a>
+      </div>
+      <div class="col-md-4">
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+      </div>
+   </div>  
+    </nav>
+  </header>
+  <div>
+      <div class="images">
+          <img src="https://img.freepik.com/free-photo/pretty-young-stylish-sexy-woman-pink-luxury-dress-summer-fashion-trend-chic-style-sunglasses-blue-studio-background-shopping-holding-paper-bags-talking-mobile-phone-shopaholic_285396-2957.jpg?size=626&ext=jpg&ga=GA1.2.2073410726.1630108800" class="img1"> 
+      </div>
+      <h3>"Style is a way to say who you are 
+          <br>without having to speak"</h3>
+          </div>
+          <img src="https://img.icons8.com/color/96/000000/spa-flower.png" class="icon1">
+        <div>
+            <h4>
+                Clothes are the spirit of fashion
+            </h4>
+        </div>
+        <div class="sidebard">
+            <img src="photos/clt1.webp" class="clt1" width="170px">
+            <img src="photos/clt2.webp" class="clt2" width="160px">
+            <p class="p1">"Discover Online Fashion Courses<br>
+                 Canada At Asksly! - Easily Found! Find Easily. 
+                 Many Products. Quick Results."</p>
+        </div>
+        <section id= "content1">
+            <script type="text/javascript">
+                window.onload = function(){
+                window.displayImgCount = 0;
+                function cycleImage(){
+                  if (displayImgCount !== 0) {
+                      document.getElementById("img" + displayImgCount).style.display = "none";
+                  }
+                  displayImgCount = displayImgCount === 3 ? 1 : displayImgCount + 1;
+                  document.getElementById("img" + displayImgCount).style.display = "block";
+                  setTimeout(cycleImage, 2500);
+              }
+              cycleImage();
+          }
+      </script>
+   
+      <body>
+        <a href="#womens">
+          <img id="img1" src="photos/ban1.webp" width=100% style="display: none">
+         </a>
+         <a href="#men">
+          <img id="img2" src="photos/menban1.webp" width=100% style="display: none">
+          </a>
+          <a href="#kids">
+          <img id="img3" src="photos/ban2.webp" width=100% style="display: none">
+      </a>
+        </body>
+
+     </section>
+          
+             <marquee> <h5> Offers of the day</h5></marquee>
+              <a href="#womens" ><img src="photos/offer1.jpg">
+              <img src="photos/off2.webp">
+              <img src="photos/off3.webp">
+              <img src="photos/off4.jpg">
+              <img src="photos/off5.webp">
+              <img src="photos/off6.webp">
+            
+              <img src="photos/off13.webp">
+              <img src="photos/off7.webp">
+              <img src="photos/off10.webp">
+              <img src="photos/off11.webp">
+              <img src="photos/off12.webp">
+              <img src="photos/off8.webp">
+              </a>
+          </div>
+         
+          <section id="womens">
+<h2>Latest for womens Fashion</h2>
+<div class="product1">
+    <div class="imgbox1"> <img src="photos/saree.jpeg"> </div>
+    <div class="specifies1">
+        <h2>Saree <br> <span>BIBA</span></h2>
+        <div class="price1">$1500</div> <label>Size</label>
+        <ul>
+            <li>S</li>
+            <li>XS</li>
+            <li>M</li>
+            <li>L</li>
+            <li>XL</li>
+        </ul> <label>Colors</label>
+        <ul class="colors">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul> <button class="btn btn-primary">Buy Now</button>
+    </div>
+</div>
+<div class="product2">
+    <div class="imgbox2"> <img src="photos/gown1.jpeg"> </div>
+    <div class="specifies2">
+        <h2>Long Gown <br> <span>Trends</span></h2>
+        <div class="price2">$1800</div> <label>Size</label>
+        <ul>
+            <li>S</li>
+            <li>XS</li>
+            <li>M</li>
+            <li>L</li>
+            <li>XL</li>
+        </ul> <label>Colors</label>
+        <ul class="colors">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul> <button class="btn btn-primary">Buy Now</button>
+    </div>
+</div>
+<div class="product3">
+    <div class="imgbox3"> <img src="photos/kurta.jpeg"> </div>
+    <div class="specifies3">
+        <h2>Kurta<br> <span>Trends</span></h2>
+        <div class="price3">$2000</div> <label>Size</label>
+        <ul>
+            <li>S</li>
+            <li>XS</li>
+            <li>M</li>
+            <li>L</li>
+            <li>XL</li>
+        </ul> <label>Colors</label>
+        <ul class="colors">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul> <button class="btn btn-primary">Buy Now</button>
+    </div>
+</div>
+<div class="product4">
+    <div class="imgbox4"> <img src="photos/boxy3.jpeg"> </div>
+    <div class="specifies4">
+        <h2>Boxy Top <br> <span>Roadstar</span></h2>
+        <div class="price4">$1300</div> <label>Size</label>
+        <ul>
+            <li>S</li>
+            <li>XS</li>
+            <li>M</li>
+            <li>L</li>
+            <li>XL</li>
+        </ul> <label>Colors</label>
+        <ul class="colors">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul> <button class="btn btn-primary">Buy Now</button>
+    </div>
+</div>
+
+          </section>
+ <section id="men">
+<h2>Latest for Mens Wear</h2>
+        <div class="product5">
+            <div class="imgbox5"> <img src="photos/mens1.jpeg"> </div>
+            <div class="specifies5">
+                <h2><T-shirt>T-shirt <br> <span>puma</span></h2>
+                <div class="price5">$1500</div> <label>Size</label>
+                <ul>
+                    <li>S</li>
+                    <li>XS</li>
+                    <li>M</li>
+                    <li>L</li>
+                    <li>XL</li>
+                </ul> <label>Colors</label>
+                <ul class="colors">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul> <button class="btn btn-primary">Buy Now</button>
+            </div>
+        </div>
+		</div>
+        <div class="product6">
+            <div class="imgbox6"> <img src="photos/men2.jpeg"> </div>
+            <div class="specifies6">
+                <h2>Shirt <br> <span>Raymond</span></h2>
+                <div class="price6">$10800</div> <label>Size</label>
+                <ul>
+                    <li>S</li>
+                    <li>XS</li>
+                    <li>M</li>
+                    <li>L</li>
+                    <li>XL</li>
+                </ul> <label>Colors</label>
+                <ul class="colors">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul> <button class="btn btn-primary">Buy Now</button>
+            </div>
+        </div>
+        <div class="product7">
+            <div class="imgbox7"> <img src="photos/jac.jpeg"> </div>
+            <div class="specifies7">
+                <h2>Jacket<br> <span>Denim</span></h2>
+                <div class="price7">$2000</div> <label>Size</label>
+                <ul>
+                    <li>S</li>
+                    <li>XS</li>
+                    <li>M</li>
+                    <li>L</li>
+                    <li>XL</li>
+                </ul> <label>Colors</label>
+                <ul class="colors">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul> <button class="btn btn-primary">Buy Now</button>
+            </div>
+        </div>
+        <div class="product8">
+            <div class="imgbox8"> <img src="photos/jeans.jpeg"> </div>
+            <div class="specifies8">
+                <h2>    jeans<br> <span>Roadstar</span></h2>
+                <div class="price8">$1300</div> <label>Size</label>
+                <ul>
+                    <li>S</li>
+                    <li>XS</li>
+                    <li>M</li>
+                    <li>L</li>
+                    <li>XL</li>
+                </ul> <label>Colors</label>
+                <ul class="colors">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul> <button class="btn btn-primary">Buy Now</button>
+            </div>
+        </div>
+          
+</section>
+			
+			<section id="kids">
+
+    <h2>Latest for Kids Wear</h2>
+    <div class="product9">
+        <div class="imgbox9"> <img src="photos/kids55.webp"> </div>
+        <div class="specifies9">
+            <h2><T-shirt>Skirt <br> <span>Fashion</span></h2>
+            <div class="price9">$1500</div> <label>Size</label>
+            <ul>
+                <li>S</li>
+                <li>XS</li>
+                <li>M</li>
+                <li>L</li>
+                <li>XL</li>
+            </ul> <label>Colors</label>
+            <ul class="colors">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul> <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+	</div>
+    <div class="product10">
+        <div class="imgbox10"> <img src="photos/kid2.jpeg"> </div>
+        <div class="specifies10">
+            <h2>Kurta <br> <span>Manyavar</span></h2>
+            <div class="price10">$10800</div> <label>Size</label>
+            <ul>
+                <li>S</li>
+                <li>XS</li>
+                <li>M</li>
+                <li>L</li>
+                <li>XL</li>
+            </ul> <label>Colors</label>
+            <ul class="colors">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul> <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+    <div class="product11">
+        <div class="imgbox11"> <img src="photos/kid3.jpeg"> </div>
+        <div class="specifies11">
+            <h2>Jacket<br> <span>Twinsspl</span></h2>
+            <div class="price11">$2000</div> <label>Size</label>
+            <ul>
+                <li>S</li>
+                <li>XS</li>
+                <li>M</li>
+                <li>L</li>
+                <li>XL</li>
+            </ul> <label>Colors</label>
+            <ul class="colors">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul> <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+    <div class="product12">
+        <div class="imgbox12"> <img src="photos/kid4.jpeg"> </div>
+        <div class="specifies12">
+            <h2>Lehenga<br> <span>BIBA</span></h2>
+            <div class="price12">$1300</div> <label>Size</label>
+            <ul>
+                <li>S</li>
+                <li>XS</li>
+                <li>M</li>
+                <li>L</li>
+                <li>XL</li>
+            </ul> <label>Colors</label>
+            <ul class="colors">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul> <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+	
+      
+</section>
+		
+		
+</html>
